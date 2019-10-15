@@ -1,6 +1,12 @@
 const farmAnimals = 'cow horse sheep pig chicken'
+const [moo,neigh,baa,oink,cluck] = farmAnimals
+const [Bessie,,Dolly,Babe,Little] = farmAnimals
+const [black_and_white,,black,pink,] = farmAnimals
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+const [red,orange,yellow,green,blue,indigo,violet] = colors
+const [r,o,y,g,b,,v] = colors
+
 
 const muppet = {
   name: 'Kermit',
